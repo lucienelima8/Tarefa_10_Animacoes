@@ -125,6 +125,9 @@ footer a {
  /*480px equivale a 30em*/
  @media screen and (max-width: 30em) {
 
+    html {
+    }
+
     body {
         /*background-color: #f1f1f1;*/
         background-image: linear-gradient(#f1f1f1, #f1f1f1, #ccc);
@@ -172,6 +175,7 @@ footer a {
         color: black;
         font-size: 1em;
         padding-top: 2em;
+        padding-bottom: 0;
         font-weight: bold;
         text-align: center;
         margin-top: 0;
