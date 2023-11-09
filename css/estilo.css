@@ -12,6 +12,7 @@
 body {
     /*background-color: #f1f1f1;*/
     background-image: linear-gradient(#f1f1f1, #f1f1f1, #ccc);
+    text-align: center;
 
     /*font-family: 'Dancing+Script:wght@600;700&display=swap', sans-serif;*/
 
@@ -19,24 +20,24 @@ body {
 
 /*Título Descodificadas*/
 h1 {
-    text-align: center;
+    /*text-align: center;*/
     font-size: 3em;
     color: red;
     /*font-family: 'Dancing Script', cursive;*/
     font-family: 'Merienda', cursive;
-    margin-bottom: 0;
+    margin-bottom: 1em;
 
 }
 
 .div_audio {
-    align-items: center;
+    /*align-items: center;*/
 
 
 }
 
 /*Áudio batidas do coração*/
 .audio {
-    text-align: center;
+    /*text-align: center;*/
     margin-top: 0; 
       
 
@@ -44,12 +45,11 @@ h1 {
 
 /*Div da imagem*/
 div{
-    text-align: center;
+    /*text-align: center;*/
     /*1 em equivale a 16px*/
     width: 40em;
     height: 20em;
     
-
     /*margem*/
     margin: 5rem auto; /*pra deixar o elemento no meio do site*/
     /*margin-top: 100px; /*pro elemento não grudar em cima*/
@@ -60,7 +60,8 @@ div{
     width: 40em;
     /*height: 600px;*/
     height: auto;
-    justify-content: center;
+    /*justify-content: center;*/
+    margin-top: 1em;
 
 
 }
@@ -73,8 +74,8 @@ footer {
     /*padding-top: 8em;*/
     padding-top: 80vh;
     font-weight: bold;
-    text-align: center;
-    margin-top: 0;
+    /*text-align: center;*/
+    margin-top: 1em;
     margin-bottom: 0;
 
 
@@ -125,25 +126,26 @@ footer a {
  /*480px equivale a 30em*/
  @media screen and (max-width: 30em) {
 
-    html {
-    }
-
     body {
         /*background-color: #f1f1f1;*/
         background-image: linear-gradient(#f1f1f1, #f1f1f1, #ccc);
         /*background-color: rgb(243, 238, 238);*/
+        text-align: center;
+
     
     }
 
     h1 {
         text-align: center;
         font-size: 2em;
+        margin-top: .8em;
+        margin-bottom: 1em;
     }
 
     /*Áudio batidas do coração*/
     .audio {
-        /*text-align: center;*/
-        margin-top: 0; 
+        text-align: center;
+        margin-top: 1em; 
         
     
     }
@@ -174,7 +176,7 @@ footer a {
     footer {
         color: black;
         font-size: 1em;
-        padding-top: 2em;
+        padding-top: 1em;
         padding-bottom: 0;
         font-weight: bold;
         text-align: center;
@@ -192,7 +194,7 @@ footer a {
     }
 
     footer a {
-        font-size: .9em;
+        font-size: .8em;
 
            
     }
