@@ -1,0 +1,136 @@
+/*Tarefa 10: Animação*/
+/*Aluna Luciene Lima*/
+
+
+/*Fazer uma animação pulsar.*/
+
+
+/*Font importada do google*/
+@import url('https://fonts.googleapis.com/css2?family=Merienda:wght@900&display=swap');
+
+
+body {
+    background-color: #f1f1f1;
+    /*font-family: 'Dancing+Script:wght@600;700&display=swap', sans-serif;*/
+
+}
+
+/*Título Descodificadas*/
+h1 {
+    text-align: center;
+    font-size: 3em;
+    color: red;
+    /*font-family: 'Dancing Script', cursive;*/
+    font-family: 'Merienda', cursive;
+    margin-bottom: 0;
+
+}
+
+/*Div da imagem*/
+div{
+    text-align: center;
+    /*1 em equivale a 16px*/
+    width: 40em;
+    height: 25em;
+    
+
+    /*margem*/
+    margin: 0 auto; /*pra deixar o elemento no meio do site*/
+    /*margin-top: 100px; /*pro elemento não grudar em cima*/
+
+}
+
+.imagem {
+    width: 40em;
+    /*height: 600px;*/
+    height: auto;
+    justify-content: center;
+
+
+}
+
+
+/*rodapé*/
+footer {
+    color: black;
+    font-size: 1em;
+    /*padding-top: 8em;*/
+    padding-top: 100vh;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 0;
+
+
+}
+
+/*pegar só o 1º p do footer*/
+footer p:nth-of-type(1) {
+    opacity: .6;
+    font-size: .8em;
+}
+
+footer a {
+    font-size: .9em;
+    }
+
+
+
+ /*RESPONSIVIDADE CELULAR*/
+
+ /*480px equivale a 30em*/
+ @media screen and (max-width: 30em) {
+    h1 {
+        text-align: center;
+        font-size: 2em;
+ }
+
+ /*Div da imagem*/
+div{
+    text-align: center;
+    width: 25em;
+    height: 25em;
+    margin-top: 0;
+    margin-bottom: 2rem;
+    
+
+    /*margem*/
+    /*margin: auto; /*pra deixar o elemento no meio do site*/
+    /*margin-top: 0; /*pro elemento não grudar em cima*/
+
+}
+
+.imagem {
+    width: 25em;
+    /*height: 600px;*/
+    justify-content: center;
+
+
+}
+
+
+/*rodapé*/
+footer {
+    color: black;
+    font-size: 1em;
+    padding-top: 8em;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 0;
+
+
+}
+
+/*pegar só o 1º p do footer*/
+footer p:nth-of-type(1) {
+    opacity: .6;
+    /*font-size: .8em;*/
+    padding-top: auto;
+
+}
+
+footer a {
+    font-size: .9em;
+    
+}
+
+}
