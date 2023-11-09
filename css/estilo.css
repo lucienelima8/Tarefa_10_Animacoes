@@ -10,7 +10,9 @@
 
 
 body {
-    background-color: #f1f1f1;
+    /*background-color: #f1f1f1;*/
+    background-image: linear-gradient(#f1f1f1, #f1f1f1, #ccc);
+
     /*font-family: 'Dancing+Script:wght@600;700&display=swap', sans-serif;*/
 
 }
@@ -26,16 +28,30 @@ h1 {
 
 }
 
+.div_audio {
+    align-items: center;
+
+
+}
+
+/*Áudio batidas do coração*/
+.audio {
+    text-align: center;
+    margin-top: 0; 
+      
+
+}
+
 /*Div da imagem*/
 div{
     text-align: center;
     /*1 em equivale a 16px*/
     width: 40em;
-    height: 25em;
+    height: 20em;
     
 
     /*margem*/
-    margin: 0 auto; /*pra deixar o elemento no meio do site*/
+    margin: 5rem auto; /*pra deixar o elemento no meio do site*/
     /*margin-top: 100px; /*pro elemento não grudar em cima*/
 
 }
@@ -55,15 +71,16 @@ footer {
     color: black;
     font-size: 1em;
     /*padding-top: 8em;*/
-    padding-top: 100vh;
+    padding-top: 80vh;
     font-weight: bold;
     text-align: center;
     margin-top: 0;
+    margin-bottom: 0;
 
 
 }
 
-/*pegar só o 1º p do footer*/
+/*pegar só o 1º p do footer: Fonte*/
 footer p:nth-of-type(1) {
     opacity: .6;
     font-size: .8em;
@@ -71,66 +88,109 @@ footer p:nth-of-type(1) {
 
 footer a {
     font-size: .9em;
+
+}
+
+
+
+
+      /*ANIMAÇÃO*/
+
+/*Animação na imagem*/
+.animacaoFade {
+    /*fadeInFadeOut: nome pra animação*/
+    animation: fadeInFadeOut 1s linear infinite;
+
+}
+
+/*abaixo eu chamei o nome da animação acima*/
+@keyframes fadeInFadeOut {
+    0% {
+        opacity: 1;
     }
 
+    50% {
+        opacity: 0.2;
+    }
+    100% {
+        opacity: 1;
+    }
+
+}
 
 
- /*RESPONSIVIDADE CELULAR*/
+
+     /*RESPONSIVIDADE CELULAR*/
 
  /*480px equivale a 30em*/
  @media screen and (max-width: 30em) {
+
+    body {
+        /*background-color: #f1f1f1;*/
+        background-image: linear-gradient(#f1f1f1, #f1f1f1, #ccc);
+        /*background-color: rgb(243, 238, 238);*/
+    
+    }
+
     h1 {
         text-align: center;
         font-size: 2em;
- }
+    }
 
- /*Div da imagem*/
-div{
-    text-align: center;
-    width: 25em;
-    height: 25em;
-    margin-top: 0;
-    margin-bottom: 2rem;
+    /*Áudio batidas do coração*/
+    .audio {
+        /*text-align: center;*/
+        margin-top: 0; 
+        
     
+    }
 
-    /*margem*/
-    /*margin: auto; /*pra deixar o elemento no meio do site*/
-    /*margin-top: 0; /*pro elemento não grudar em cima*/
+    /*Div da imagem*/
+    div{
+        text-align: center;
+        width: 25em;
+        height: 25em;
+        margin-top: 0;
+        margin-bottom: 2rem;
+                
+        /*margem*/
+        margin: auto; /*pra deixar o elemento no meio do site*/
+        margin-top: 2rem; /*pro elemento não grudar em cima*/
 
-}
+    }
 
-.imagem {
-    width: 25em;
-    /*height: 600px;*/
-    justify-content: center;
+    .imagem {
+        width: 25em;
+        /*height: 600px;*/
+        justify-content: center;
+           
 
+    }
 
-}
+    /*rodapé*/
+    footer {
+        color: black;
+        font-size: 1em;
+        padding-top: 2em;
+        font-weight: bold;
+        text-align: center;
+        margin-top: 0;
+        margin-bottom: 0;
 
+    }
 
-/*rodapé*/
-footer {
-    color: black;
-    font-size: 1em;
-    padding-top: 8em;
-    font-weight: bold;
-    text-align: center;
-    margin-top: 0;
+    /*pegar só o 1º p do footer*/
+    footer p:nth-of-type(1) {
+        opacity: .6;
+        /*font-size: .8em;*/
+        /*padding-top: auto;*/
 
+    }
 
-}
+    footer a {
+        font-size: .9em;
 
-/*pegar só o 1º p do footer*/
-footer p:nth-of-type(1) {
-    opacity: .6;
-    /*font-size: .8em;*/
-    padding-top: auto;
-
-}
-
-footer a {
-    font-size: .9em;
-    
-}
+           
+    }
 
 }
