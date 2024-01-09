@@ -11,6 +11,9 @@ Autora: Luciene Lima
 <a href="https://github.com/lucienelima8" target="_blank">
 <br>Meu Github</a>
 
+![coração_pulsando](https://github.com/lucienelima8/Tarefa_10_Animacoes/assets/137119392/a509305d-fcfb-421b-bd48-ec0f84f01082)
+
+
 <br>
 <hr>
 <b>Plágio é crime.<br>
